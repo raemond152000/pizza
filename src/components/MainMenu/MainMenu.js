@@ -102,7 +102,7 @@ function MainMenu() {
             <Nav className="me-auto">
                
                 <NavLink to="/" className='text-link'>Home</NavLink>    
-                <NavLink to="/get-your-pizza" className='text-link'>Get Your Tae Pizza</NavLink>                   
+                <NavLink to="/get-your-pizza" className='text-link'>Get Your TaeTUbol Pizza</NavLink>                   
                 <NavLink to="/orders" className='text-link'>Orders</NavLink>   
                 {currentUser && <span className='text-link' id="loggedAs" >Logged in as: {currentUser?.email} </span>}
                 {!currentUser &&<NavLink to="#" className='text-link'  onClick={handleShow}> Log In</NavLink>} 
