@@ -1,0 +1,31 @@
+.text-link{
+    margin:10px;
+    margin-bottom: 0px;
+    padding: 10px;
+    float : "right";
+    text-decoration: none;
+    margin-left: 5px;    
+    color: inherit;
+    justify-content: space-between;  
+
+&:hover {
+    color: white;
+  
+  }     
+  
+
+}
+.menu{
+    background-color: #f8f8f8;
+    display: flex;  
+     flex-direction: row;
+     justify-content: flex-end;
+}
+
+div.me-auto.nav{
+  margin-left: 20px;
+  
+}
+#loggedAs:hover  {
+  color: inherit;
+}
